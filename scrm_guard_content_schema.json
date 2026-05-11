@@ -1,34 +1,28 @@
 {
   "type": "object",
   "properties": {
-    "post_1_topic": { "type": "string" },
-    "post_1_angle": { "type": "string" },
-    "post_1_audience": { "type": "string" },
-    "post_1_text": { "type": "string" },
-
-    "post_2_topic": { "type": "string" },
-    "post_2_angle": { "type": "string" },
-    "post_2_audience": { "type": "string" },
-    "post_2_text": { "type": "string" },
-
-    "post_3_topic": { "type": "string" },
-    "post_3_angle": { "type": "string" },
-    "post_3_audience": { "type": "string" },
-    "post_3_text": { "type": "string" }
+    "topic": {
+      "type": "string"
+    },
+    "angle": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "post_text": {
+      "type": "string"
+    },
+    "image_prompt": {
+      "type": "string"
+    }
   },
   "required": [
-    "post_1_topic",
-    "post_1_angle",
-    "post_1_audience",
-    "post_1_text",
-    "post_2_topic",
-    "post_2_angle",
-    "post_2_audience",
-    "post_2_text",
-    "post_3_topic",
-    "post_3_angle",
-    "post_3_audience",
-    "post_3_text"
+    "topic",
+    "angle",
+    "audience",
+    "post_text",
+    "image_prompt"
   ],
   "additionalProperties": false
 }
