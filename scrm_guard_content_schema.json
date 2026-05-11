@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "idea_1_topic": { "type": "string" },
+    "idea_1_angle": { "type": "string" },
+    "idea_1_audience": { "type": "string" },
+    "idea_1_hook": { "type": "string" },
+    "idea_1_cta": { "type": "string" },
+
+    "idea_2_topic": { "type": "string" },
+    "idea_2_angle": { "type": "string" },
+    "idea_2_audience": { "type": "string" },
+    "idea_2_hook": { "type": "string" },
+    "idea_2_cta": { "type": "string" },
+
+    "idea_3_topic": { "type": "string" },
+    "idea_3_angle": { "type": "string" },
+    "idea_3_audience": { "type": "string" },
+    "idea_3_hook": { "type": "string" },
+    "idea_3_cta": { "type": "string" }
+  },
+  "required": [
+    "idea_1_topic",
+    "idea_1_angle",
+    "idea_1_audience",
+    "idea_1_hook",
+    "idea_1_cta",
+    "idea_2_topic",
+    "idea_2_angle",
+    "idea_2_audience",
+    "idea_2_hook",
+    "idea_2_cta",
+    "idea_3_topic",
+    "idea_3_angle",
+    "idea_3_audience",
+    "idea_3_hook",
+    "idea_3_cta"
+  ],
+  "additionalProperties": false
+}
